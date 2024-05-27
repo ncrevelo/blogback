@@ -148,5 +148,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173'
+    'https://wonderful-beach-0f9cff00f.5.azurestaticapps.net'
 ]
