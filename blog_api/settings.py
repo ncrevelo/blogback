@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-qcr)1%uzx53x3i_0l91qj3c77_3(6!j(pzln2l==iqi*5(ldg0
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['blogbackendd.azurewebsites.net', '*']
+ALLOWED_HOSTS = ['blogbackendd.azurewebsites.net', 'https://wonderful-beach-0f9cff00f.5.azurestaticapps.net', '*']
 
 
 
@@ -144,9 +144,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-
-
-
 CORS_ALLOWED_ORIGINS = [
     'https://wonderful-beach-0f9cff00f.5.azurestaticapps.net'
+  
 ]
